@@ -33,16 +33,6 @@ class MSTBag:
         return s
 
 
-if __name__ == '__main__':
-    mst1 = MSTBag()
-    mst1.__add__([1, 3])
-    mst1.__add__([2, 5])
-    mst1.__add__([2, 5])
-    print("beginning: ", mst1)
-    print("Pop printed", mst1.pop())
-    print(mst1, mst1.is_empty())
-    print("pop printed ", mst1.pop())
-    print(mst1, mst1.is_empty())
 
 
 

@@ -8,7 +8,7 @@
 # A data structure a bag is just like a bag, doesn't return items in any
 # particular order; there are more detailed implementations: dfs, bfs.
 
-from graphs_classes import Graph as Gr
+
 from Bag import Bag as Ba
 
 
@@ -41,27 +41,11 @@ def is_connected(g):
 def all_connected_components(g):
     for v in range(g.V):
         if g.is_marked(v) is False:
-            afs(g, v) # In fact any "First Search" can be plugged here.
+            afs(g, v)  # In fact any "First Search" can be plugged here.
 
-if __name__ == '__main__':
-    gr1 = Gr(8)
 
-    gr1.add_edge(0, 1)
-    gr1.add_edge(0, 4)
-    gr1.add_edge(0, 5)
-    gr1.add_edge(1, 2)
-    gr1.add_edge(1, 6)
-    gr1.add_edge(1, 5)
-    gr1.add_edge(2, 6)
-    gr1.add_edge(3, 7)
-    gr1.add_edge(4, 5)
-    gr1.add_edge(5, 6)
 
-    gr2 = Gr(3)
-    gr2.add_edge(0, 1)
-    gr2.add_edge(1, 2)
-    all_connected_components(gr1)
-    print(gr1.V_array)
+
 
 
 
