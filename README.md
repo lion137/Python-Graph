@@ -1,6 +1,6 @@
 ## Python-Graph
 Few basic graph algorithms in Python.
-Copyleft lion137; read, also, lion137.blogspot.ie
+Copyleft lion137; read, also, @ lion137.blogspot.ie
 
 ### Usage:
 
