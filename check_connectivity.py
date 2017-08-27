@@ -1,4 +1,4 @@
-# Randomized connectivity check on undirected graph
+# Randomized connectivity check on undirected graph (Aleliunas, Karp, Lipton, Lovasz, Rackoff, 79)
 
 
 def are_connected(g, w, v):
