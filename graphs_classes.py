@@ -155,8 +155,7 @@ class WeightedGraph:
 
     def add_edge(self, v, w, c):
         """adds an edge to the graph, takes two integers (two vertices: v, w), a cost c
-         and creates an edge v,w - by modifying appropriate adjacent lists of heaps which
-         contains pairs: vertex, weight [those heaps]"""
+         and creates an edge v,w - by modifying appropriate adjacent list"""
         self.adj[v].append([w, c])
         self.adj[w].append([v, c])
         self.E += 1
@@ -183,6 +182,7 @@ class WeightedGraph:
                 s += str(w) + " "
             s += "\n"
         return s
+
 
 class DirectedGraph:
     """Class graph, creates a graph - described by integers - number

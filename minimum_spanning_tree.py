@@ -6,7 +6,7 @@
 import BagMST as Bg
 
 
-def cfs_1(g, s):
+def cfs(g, s):
     """Minimum Spanning Tree (Cheapest First Search) algorithm: Takes a graph and vertex returns arrays of the cheapest
     edges, also mutates graph, to find connected components of given vertex"""
     edges = []  # Array of previous edges in the shortest s to v path.
