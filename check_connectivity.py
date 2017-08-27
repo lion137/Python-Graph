@@ -10,7 +10,7 @@ def are_connected(g, w, v):
 
     u = w # assign start vertex to u
     t = g.V # number of vertices
-    for t in range(1, 1000 * (t ** 3)):
+    for t in range(1000 * (t ** 3)):
         u = random.randint(g.adj_list(u)[0], g.adj_list(u)[-1]) # check random vertex from adjacency of u
         if u == v:
             return True
