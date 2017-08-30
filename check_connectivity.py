@@ -1,4 +1,5 @@
 # Randomized connectivity check on undirected graph (Aleliunas, Karp, Lipton, Lovasz, Rackoff, 79)
+# Not very practical, but, still O(1) SPACE.
 
 
 def are_connected(g, w, v):
