@@ -1,4 +1,3 @@
-# Depth First Search implemented as a function.
 # Data structure used as a bag is LIFO stack, implemented in compiler
 # via recursion. Of course when exceed stack capacity, we can use stack explicitly,
 # like in the other versions
